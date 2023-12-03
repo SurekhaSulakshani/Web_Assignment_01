@@ -34,4 +34,12 @@ function Feature_Justify() {
     document.execCommand('justifyFull', false, null);
 }
 
+function Feature_Undo() {
+    document.execCommand('undo', false, null);
+}
+
+function Feature_Redo() {
+    document.execCommand('redo', false, null);
+}
+
 
