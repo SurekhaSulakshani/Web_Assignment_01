@@ -17,3 +17,21 @@ function Feature_TextColor() {
         document.execCommand('foreColor', false, fontColor);
     }
 }
+
+function Feature_LeftAlign() {
+    document.execCommand('justifyLeft', false, null);
+}
+
+function Feature_ceneter() {
+    document.execCommand('justifyCenter', false, null);
+}
+
+function Feature_RightAlign() {
+    document.execCommand('justifyRight', false, null);
+}
+
+function Feature_Justify() {
+    document.execCommand('justifyFull', false, null);
+}
+
+
