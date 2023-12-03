@@ -9,3 +9,11 @@ function Feature_Underline() {
 function Feature_Italic() {
     document.execCommand('italic', true, null)
 }
+
+function Feature_TextColor() {
+    var fontColor = document.querySelector('input[type="color"]').value;
+    if (fontColor) {
+        document.execCommand('styleWithCSS', false, true);
+        document.execCommand('foreColor', false, fontColor);
+    }
+}
