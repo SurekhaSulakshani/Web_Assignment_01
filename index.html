@@ -17,55 +17,53 @@
 
     <main class="container">
         <div class="tool_bar">
+            <!-- The following HTML code represents a set of buttons for text formatting within a text area. -->
+
+            <!-- Button for making text bold -->
             <button class="button" onclick="Feature_Bold()">
                 <img src="Resources/bold-xxl.png" width="15" alt="Bold">
             </button>
-
+            <!-- Button for underlining text -->
             <button class="button" onclick="Feature_Underline()">
                 <img src="Resources/format_underline_white_192x192.png" width="25" alt="Underline">
             </button>
-
+            <!-- Button for making text italic -->
             <button class="button" onclick="Feature_Italic()">
                 <img src="Resources/italic-xxl.png" width="15" alt="Italic">
             </button>
-
+            <!-- Button for changing text color -->
             <button type="button" onclick="Feature_TextColor()">
                 <h5> A </h5>
                 <input type="color" onchange="Feature_TextColor()" />
             </button>
-
+            <!-- Button for left-aligning text -->
             <button class="button" onclick="Feature_LeftAlign()">
                 <img src="Resources/left.png" width="20" alt="Left">
             </button>
-
+            <!-- Button for centering text -->
             <button class="button" onclick="Feature_ceneter()">
                 <img src="Resources/center.png" width="20" alt="center">
             </button>
-
+            <!-- Button for right-aligning text -->
             <button class="button" onclick="Feature_RightAlign()">
                 <img src="Resources/right.png" width="20" alt="Right">
             </button>
-
+            <!-- Button for justifying text -->
             <button class="button" onclick="Feature_Justify()">
                 <img src="Resources/justify.png" width="20" alt="Justify">
             </button>
-
+            <!-- Button for undoing the last action -->
             <button class="button" onclick="Feature_Undo()">
                 <img src="Resources/undo-4-32.png" width="20" alt="Undo">
             </button>
-
+            <!-- Button for redoing the last undone action -->
             <button class="button" onclick="Feature_Redo()">
                 <img src="Resources/action-redo-32.png" width="20" alt="Redo">
             </button>
-
-
-
-
-
-
-
         </div>
     </main>
+    <!-- A contenteditable div for entering and displaying text -->
+    <div class="text-area" contenteditable="true"></div>
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
