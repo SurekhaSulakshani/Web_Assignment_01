@@ -35,3 +35,16 @@ button.active {
     color: #2644c8;
 }
 
+input[type="color"] {
+    width: 20px;
+    height: 10px;
+    outline: none;
+    display: flex;
+    box-shadow: none;
+    overflow: hidden;
+    background-color: gray;
+}
+
+h5 {
+    color: blue;
+}
